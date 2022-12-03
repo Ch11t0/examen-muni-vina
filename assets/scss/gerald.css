@@ -1,0 +1,346 @@
+/* Botones */
+button {
+  margin: 20px;
+}
+
+/* Boton Normal */
+.boton-normal {
+  width: 154px;
+  height: 50px;
+  color: #fff;
+  padding: 10px 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.boton-rojo-normal {
+  width: 154px;
+  height: 50px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: #FF2973;
+  background: linear-gradient(0deg, #FF2973 0%, #FF2973 100%);
+}
+
+.boton-rojo-normal:hover {
+  color: #FF2973;
+  background: transparent;
+  box-shadow: none;
+}
+
+.boton-rojo-normal:before,
+.boton-rojo-normal:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #FF2973;
+  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1333333333);
+  transition: 400ms ease all;
+}
+
+.boton-rojo-normal:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.boton-rojo-normal:hover:before,
+.boton-rojo-normal:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+/* Boton Formulario */
+.boton-form {
+  width: 370px;
+  height: 50px;
+  color: #fff;
+  padding: 10px 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.boton-rojo-form {
+  width: 370px;
+  height: 50px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: #FF2973;
+  background: linear-gradient(0deg, #FF2973 0%, #FF2973 100%);
+}
+
+.boton-rojo-form:hover {
+  color: #FF2973;
+  background: transparent;
+  box-shadow: none;
+}
+
+.boton-rojo-form:before,
+.boton-rojo-form:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #FF2973;
+  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1333333333);
+  transition: 400ms ease all;
+}
+
+.boton-rojo-form:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.boton-rojo-form:hover:before,
+.boton-rojo-form:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+/* Boton Pagos (index) */
+.boton-pagos {
+  width: 230px;
+  height: 75px;
+  color: #fff;
+  padding: 10px 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.boton-rojo-pagos {
+  width: 230px;
+  height: 75px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: #FF2973;
+  background: linear-gradient(0deg, #FF2973 0%, #FF2973 100%);
+}
+
+.boton-rojo-pagos:hover {
+  color: #FF2973;
+  background: transparent;
+  box-shadow: none;
+}
+
+.boton-rojo-pagos:before,
+.boton-rojo-pagos:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #FF2973;
+  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1333333333);
+  transition: 400ms ease all;
+}
+
+.boton-rojo-pagos:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.boton-rojo-pagos:hover:before,
+.boton-rojo-pagos:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+/* Footer */
+.site-footer {
+  background: url(./../img/Grupo-130.png);
+  background-size: cover;
+  background-position: center center;
+  padding: 45px 0 20px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 24px;
+  color: white;
+}
+
+.site-footer hr {
+  border-top-color: white;
+  opacity: 4;
+}
+
+.site-footer hr.small {
+  margin: 20px 0;
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  letter-spacing: 2px;
+}
+
+.site-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #00B9FF;
+  text-decoration: none;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  display: block;
+  margin-top: 22px;
+}
+
+.footer-links a {
+  color: white;
+}
+
+.footer-links a:active, .footer-links a:focus, .footer-links a:hover {
+  color: #00B9FF;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+
+.footer-links.inline li {
+  display: inline-block;
+  margin-top: 22px;
+}
+
+.site-footer .social-icons {
+  text-align: left;
+}
+
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: transparent;
+}
+
+.site-footer .logo-blanco {
+  left: 37%;
+  bottom: 10%;
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .logo-blanco {
+    left: 15%;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.social-icons a {
+  background-color: #eceeef;
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  transition: all 0.2s linear;
+}
+
+.social-icons a:active, .social-icons a:focus, .social-icons a:hover {
+  color: white;
+  background-color: #29aafe;
+}
+
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+
+.social-icons a.instagram:hover {
+  background-color: #C13584;
+}
+
+.social-icons a.youtube:hover {
+  background-color: red;
+}
+
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}/*# sourceMappingURL=gerald.css.map */
