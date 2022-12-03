@@ -1,0 +1,197 @@
+$size70banner: 70px;
+$h1: 39px;
+$h2: 31px;
+$h3: 25px;
+$h4: 20px;
+$parrafo: 16px;
+$azul: #0068B1;
+$celeste: #00B9FF; 
+$amarillo: #FFCB42;
+$Montserrat: "Montserrat", sans-serif;
+
+
+/* Botones */
+button {
+    margin: 20px;
+  }
+  /* Boton Normal */
+  .boton-normal {
+    width: 154px;
+    height: 50px;
+    color: #fff;
+    padding: 10px 25px;
+    font-family: $Montserrat;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+.boton-rojo-normal {
+    width: 154px;
+    height: 50px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: #FF2973;
+  background: linear-gradient(0deg, #FF2973 0%,#FF2973 100%);
+  }
+  .boton-rojo-normal:hover {
+    color: #FF2973;
+    background: transparent;
+     box-shadow:none;
+  }
+  .boton-rojo-normal:before,
+  .boton-rojo-normal:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #FF2973;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .boton-rojo-normal:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .boton-rojo-normal:hover:before,
+  .boton-rojo-normal:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+  
+/* Boton Formulario */
+.boton-form {
+    width: 370px;
+    height: 50px;
+    color: #fff;
+    padding: 10px 25px;
+    font-family: $Montserrat;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .boton-rojo-form {
+    width: 370px;
+    height: 50px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: #FF2973;
+  background: linear-gradient(0deg, #FF2973 0%,#FF2973 100%);
+  }
+  .boton-rojo-form:hover {
+    color: #FF2973;
+    background: transparent;
+     box-shadow:none;
+  }
+  .boton-rojo-form:before,
+  .boton-rojo-form:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #FF2973;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .boton-rojo-form:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .boton-rojo-form:hover:before,
+  .boton-rojo-form:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+
+  /* Boton Pagos (index) */
+
+  .boton-pagos {
+    width: 230px;
+    height: 75px;
+    color: #fff;
+    padding: 10px 25px;
+    font-family: $Montserrat;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+  .boton-rojo-pagos {
+    width: 230px;
+    height: 75px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: #FF2973;
+  background: linear-gradient(0deg, #FF2973 0%,#FF2973 100%);
+  }
+  .boton-rojo-pagos:hover {
+    color: #FF2973;
+    background: transparent;
+     box-shadow:none;
+  }
+  .boton-rojo-pagos:before,
+  .boton-rojo-pagos:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #FF2973;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .boton-rojo-pagos:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .boton-rojo-pagos:hover:before,
+  .boton-rojo-pagos:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
