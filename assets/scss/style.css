@@ -51,10 +51,6 @@ a {
 }
 
 /* Botones */
-button {
-  margin: 20px;
-}
-
 /* Boton Normal */
 .boton-normal {
   width: 154px;
@@ -69,14 +65,13 @@ button {
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
 }
 
 .boton-rojo-normal {
   width: 154px;
   height: 50px;
-  line-height: 42px;
+  line-height: 50px;
   padding: 0;
   border: none;
   background: #FF2973;
@@ -98,7 +93,6 @@ button {
   height: 2px;
   width: 0;
   background: #FF2973;
-  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1333333333);
   transition: 400ms ease all;
 }
 
@@ -285,10 +279,6 @@ a {
 }
 
 /* Botones */
-button {
-  margin: 20px;
-}
-
 /* Boton Normal */
 .boton-normal {
   width: 154px;
@@ -303,14 +293,13 @@ button {
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
 }
 
 .boton-rojo-normal {
   width: 154px;
   height: 50px;
-  line-height: 42px;
+  line-height: 50px;
   padding: 0;
   border: none;
   background: #FF2973;
@@ -332,7 +321,6 @@ button {
   height: 2px;
   width: 0;
   background: #FF2973;
-  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1333333333);
   transition: 400ms ease all;
 }
 
@@ -586,31 +574,27 @@ a {
 }
 
 /* Botones */
-button {
-  margin: 20px;
-}
-
 /* Boton Normal */
 .boton-normal {
   width: 154px;
   height: 50px;
-  color: #fff;
+  color: white;
   padding: 10px 25px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  text-decoration: none;
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
 }
 
 .boton-rojo-normal {
   width: 154px;
   height: 50px;
-  line-height: 42px;
+  line-height: 50px;
   padding: 0;
   border: none;
   background: #FF2973;
@@ -632,7 +616,6 @@ button {
   height: 2px;
   width: 0;
   background: #FF2973;
-  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1333333333);
   transition: 400ms ease all;
 }
 
@@ -653,7 +636,7 @@ button {
 .boton-form {
   width: 370px;
   height: 50px;
-  color: #fff;
+  color: white;
   padding: 10px 25px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -767,9 +750,17 @@ button {
   transition: 800ms ease all;
 }
 
+.noticias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .noticias h2 {
   color: #0068B1;
   text-transform: capitalize;
+}
+.noticias a {
+  margin-top: 50px;
 }
 .noticias .noticia-principal-text {
   position: relative;
@@ -815,4 +806,59 @@ button {
   position: absolute;
   bottom: 10px;
   right: -200px;
+}
+
+.muni-transparente {
+  height: 400px;
+  background-image: url("../img/transparente.jpg");
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.muni-transparente .muni-texto {
+  position: relative;
+}
+.muni-transparente .muni-texto h2 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.muni-transparente .muni-texto a {
+  display: block;
+  text-align: left;
+  color: white;
+}
+.muni-transparente::before {
+  content: "";
+  background: #0068B1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.9;
+}
+
+.conociendo {
+  text-align: center;
+}
+.conociendo .conociendo-img {
+  display: flex;
+  justify-content: center;
+}
+.conociendo h3 {
+  color: #0068B1;
+}
+.conociendo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 400px;
+}
+.conociendo .img-doble {
+  height: 250px;
+}
+
+.home-pagos h3 {
+  color: #0068B1;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

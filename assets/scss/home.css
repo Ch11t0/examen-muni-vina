@@ -54,16 +54,16 @@ a {
 .boton-normal {
   width: 154px;
   height: 50px;
-  color: #fff;
+  color: white;
   padding: 10px 25px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  text-decoration: none;
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
 }
 
@@ -92,7 +92,6 @@ a {
   height: 2px;
   width: 0;
   background: #FF2973;
-  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1333333333);
   transition: 400ms ease all;
 }
 
@@ -113,7 +112,7 @@ a {
 .boton-form {
   width: 370px;
   height: 50px;
-  color: #fff;
+  color: white;
   padding: 10px 25px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -313,4 +312,67 @@ a {
   bottom: 0;
   right: 0;
   opacity: 0.9;
+}
+
+.conociendo {
+  text-align: center;
+}
+.conociendo .conociendo-img {
+  display: flex;
+  justify-content: center;
+}
+.conociendo h3 {
+  color: #0068B1;
+}
+.conociendo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 400px;
+}
+.conociendo .img-doble {
+  height: 250px;
+}
+
+.planes {
+  background-color: #0068B1;
+  color: white;
+}
+.planes h3 {
+  text-align: center;
+}
+.planes img {
+  width: 324px;
+  height: 325px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.planes span {
+  font-weight: 600;
+  color: white;
+  text-align: left;
+}
+
+.home-pagos h3 {
+  text-align: center;
+  text-transform: capitalize;
+  color: #0068B1;
+}
+.home-pagos .link-pago {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.home-pagos a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0068B1;
+  height: 100px;
+  text-transform: capitalize;
+  border: 2px solid #0068B1;
+}
+.home-pagos a:hover {
+  background-color: #FF2973;
+  color: white;
 }/*# sourceMappingURL=home.css.map */

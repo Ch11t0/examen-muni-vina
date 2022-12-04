@@ -1,26 +1,40 @@
+body {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  padding: 75px 0px;
+}
+
 h1 {
-  font-size: 39px;
+  font-size: 2.44rem;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 31px;
+  font-size: 1.95rem;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 1.56rem;
   font-weight: bold;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
 }
 
 .primary {
@@ -36,18 +50,15 @@ p {
 }
 
 /* Botones */
-button {
-  margin: 20px;
-}
-
 /* Boton Normal */
 .boton-normal {
   width: 154px;
   height: 50px;
-  color: #fff;
+  color: white;
   padding: 10px 25px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  text-decoration: none;
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -60,7 +71,7 @@ button {
 .boton-rojo-normal {
   width: 154px;
   height: 50px;
-  line-height: 42px;
+  line-height: 50px;
   padding: 0;
   border: none;
   background: #FF2973;
@@ -103,7 +114,7 @@ button {
 .boton-form {
   width: 370px;
   height: 50px;
-  color: #fff;
+  color: white;
   padding: 10px 25px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;

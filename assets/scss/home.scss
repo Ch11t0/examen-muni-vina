@@ -94,3 +94,65 @@
         opacity: 0.9;
     }
 }
+.conociendo{
+    text-align: center;
+    .conociendo-img{
+        display: flex;
+        justify-content: center;
+    }
+    h3{
+        
+        color: $azul;
+    }
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 400px;
+        
+    }
+    .img-doble{
+        height: 250px;
+    }
+}
+.planes{
+    background-color: $azul;
+    color: $blanco;
+    h3{
+        text-align: center;
+    }
+    img{
+        width: 324px;
+        height: 325px;
+        object-fit: cover;
+    }
+    span{
+        font-weight: 600;
+        color: $blanco;
+        text-align: left;
+    }
+}
+.home-pagos{
+    h3{
+        text-align: center;
+        text-transform: capitalize;
+        color: $azul;
+    }
+    .link-pago{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $azul;
+        height: 100px;
+        text-transform: capitalize;
+        border: 2px solid $azul;
+        &:hover{
+            background-color: $accent;
+            color: $blanco;
+        }
+    }
+}
