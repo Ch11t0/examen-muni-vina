@@ -153,6 +153,9 @@
         &:hover{
             background-color: $accent;
             color: $blanco;
+            -webkit-transition:all .2s linear;
+            -o-transition:all .2s linear;
+             transition:all .2s linear
         }
     }
 }

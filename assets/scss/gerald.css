@@ -65,7 +65,6 @@ a {
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
 }
 
@@ -94,7 +93,6 @@ a {
   height: 2px;
   width: 0;
   background: #FF2973;
-  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1333333333);
   transition: 400ms ease all;
 }
 
@@ -261,17 +259,6 @@ main {
   right: 20%;
 }
 
-@media (max-width: 1400px) {
-  .casino-nuestra-ciudad {
-    top: 770px;
-  }
-}
-@media (max-width: 1200px) {
-  .casino-nuestra-ciudad {
-    top: 1204px;
-    right: 10%;
-  }
-}
 .reseña-historica h2 {
   color: #0068B1;
 }

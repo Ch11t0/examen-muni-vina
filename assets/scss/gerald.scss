@@ -26,17 +26,7 @@ main {
     top: 719px;
     right: 20%;
 }
-@media (max-width: 1400px) {
-    .casino-nuestra-ciudad {
-        top: 770px;
-    }
-}
-@media (max-width: 1200px) {
-    .casino-nuestra-ciudad {
-        top: 1204px;
-        right: 10%;
-    }
-}
+
 .reseña-historica h2 {
     color: $azul;
 }

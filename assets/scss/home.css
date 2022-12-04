@@ -375,4 +375,5 @@ a {
 .home-pagos a:hover {
   background-color: #FF2973;
   color: white;
+  transition: all 0.2s linear;
 }/*# sourceMappingURL=home.css.map */

@@ -858,7 +858,46 @@ a {
   height: 250px;
 }
 
-.home-pagos h3 {
-  color: #0068B1;
+.planes {
+  background-color: #0068B1;
+  color: white;
+}
+.planes h3 {
   text-align: center;
+}
+.planes img {
+  width: 324px;
+  height: 325px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.planes span {
+  font-weight: 600;
+  color: white;
+  text-align: left;
+}
+
+.home-pagos h3 {
+  text-align: center;
+  text-transform: capitalize;
+  color: #0068B1;
+}
+.home-pagos .link-pago {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.home-pagos a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0068B1;
+  height: 100px;
+  text-transform: capitalize;
+  border: 2px solid #0068B1;
+}
+.home-pagos a:hover {
+  background-color: #FF2973;
+  color: white;
+  transition: all 0.2s linear;
 }/*# sourceMappingURL=style.css.map */
