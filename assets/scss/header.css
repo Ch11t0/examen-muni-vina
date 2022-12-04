@@ -215,4 +215,70 @@ button {
 .boton-rojo-pagos:hover:after {
   width: 100%;
   transition: 800ms ease all;
-}/*# sourceMappingURL=variables.css.map */
+}
+
+.header-menu {
+  background-image: url("../img/banner-hs.jpg");
+  height: 600px;
+  background-size: cover;
+  position: relative;
+}
+.header-menu .container {
+  height: 500px;
+  position: relative;
+}
+.header-menu .container .header-nav {
+  position: relative;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, #0068B1, white);
+  opacity: 0.4;
+}
+
+.header-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.header-box h2 {
+  color: #FFCB42;
+}
+.header-box span {
+  display: block;
+  font-size: 70px;
+  color: white;
+}
+.header-box h3 {
+  color: white;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  flex-flow: wrap row;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  padding: 20px 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.nav-menu li:hover {
+  border-bottom: 2px solid #FFCB42;
+}
+.nav-menu .active {
+  color: #FFCB42;
+}/*# sourceMappingURL=header.css.map */

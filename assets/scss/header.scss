@@ -1,0 +1,71 @@
+@import "variables.scss";
+
+.header-menu{
+    background-image: url("../img/banner-hs.jpg");
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    .container{
+        height: 500px;
+        position: relative;
+        .header-nav{
+            position: relative;
+            display: flex;
+            flex-flow: wrap row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+    }
+    
+    &::before{
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to right, $azul, $blanco);
+        opacity: 0.4;
+    }
+    
+}
+
+.header-box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    h2{
+        color: $amarillo;
+    }
+    span{
+        display: block;
+        font-size: 70px;
+        color: $blanco;
+    }
+    h3{
+        color: $blanco;
+        font-style: italic;
+    }
+}
+
+.nav-menu{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap row;
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 20px 10px;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    li:hover{
+        border-bottom: 2px solid $amarillo;
+    }
+    .active{
+        color: $amarillo;
+    }
+}
