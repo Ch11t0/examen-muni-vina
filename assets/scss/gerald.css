@@ -1,3 +1,4 @@
+
 h1 {
   font-size: 39px;
   font-weight: bold;
@@ -44,10 +45,11 @@ button {
 .boton-normal {
   width: 154px;
   height: 50px;
-  color: #fff;
+  color: white;
   padding: 10px 25px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  text-decoration: none;
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -103,7 +105,7 @@ button {
 .boton-form {
   width: 370px;
   height: 50px;
-  color: #fff;
+  color: white;
   padding: 10px 25px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -215,6 +217,53 @@ button {
 .boton-rojo-pagos:hover:after {
   width: 100%;
   transition: 800ms ease all;
+}
+
+/* Main */
+main {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 75px;
+}
+
+.nuestra-ciudad-main h3 {
+  margin-bottom: 50px;
+  font-weight: 600;
+  color: #0068B1;
+}
+
+.nuestra-ciudad-main .bg-lugar-espectacular {
+  background: url(./../img/Grupo-131.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+.nuestra-ciudad-main .bg-lugar-espectacular p {
+  color: white;
+}
+
+.nuestra-ciudad-main .bg-lugar-espectacular .h3-blanco {
+  color: white;
+  font-weight: 400;
+}
+
+.casino-nuestra-ciudad {
+  top: 719px;
+  right: 20%;
+}
+
+@media (max-width: 1400px) {
+  .casino-nuestra-ciudad {
+    top: 770px;
+  }
+}
+@media (max-width: 1200px) {
+  .casino-nuestra-ciudad {
+    top: 1204px;
+    right: 10%;
+  }
+}
+.reseña-historica h2 {
+  color: #0068B1;
 }
 
 /* Footer */
@@ -380,4 +429,5 @@ button {
     margin-right: 0;
     font-weight: 600;
   }
-}/*# sourceMappingURL=gerald.css.map */
+}
+/* Fin del Footer *//*# sourceMappingURL=gerald.css.map */
