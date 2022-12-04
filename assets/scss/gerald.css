@@ -1,3 +1,41 @@
+@charset "UTF-8";
+h1 {
+  font-size: 39px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 31px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.primary {
+  color: #0068B1;
+}
+
+.secondary {
+  color: #FFCB42;
+}
+
+.accent {
+  color: #FF2973;
+}
+
 /* Botones */
 button {
   margin: 20px;
@@ -209,8 +247,23 @@ main {
 }
 
 .casino-nuestra-ciudad {
-  top: 0;
-  right: 0;
+  top: 719px;
+  right: 20%;
+}
+
+@media (max-width: 1400px) {
+  .casino-nuestra-ciudad {
+    top: 770px;
+  }
+}
+@media (max-width: 1200px) {
+  .casino-nuestra-ciudad {
+    top: 1204px;
+    right: 10%;
+  }
+}
+.reseña-historica h2 {
+  color: #0068B1;
 }
 
 /* Footer */
