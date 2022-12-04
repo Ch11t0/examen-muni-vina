@@ -1,9 +1,9 @@
 $size70banner: 70px;
-$h1: 39px;
-$h2: 31px;
-$h3: 25px;
-$h4: 20px;
-$parrafo: 16px;
+$h1: 2.44rem;
+$h2: 1.95rem;
+$h3: 1.56rem;
+$h4: 1.25rem;
+$parrafo: 1rem;
 $azul: #0068B1;
 $celeste: #00B9FF; 
 $amarillo: #FFCB42;
@@ -11,6 +11,13 @@ $blanco: #ffff;
 $accent:#FF2973;
 $Montserrat: "Montserrat", sans-serif;
 
+body{
+  font-size: $parrafo;
+  font-family: $Montserrat;
+}
+section{
+  padding: 75px 0px;
+}
 h1{
   font-size: $h1;
   font-weight: bold;
@@ -31,6 +38,10 @@ p{
   font-size: $parrafo;
   font-weight: normal;
 }
+a{
+  text-decoration: none;
+  text-align: center;
+}
 .primary{
   color: $azul;
 }
@@ -43,9 +54,6 @@ p{
 
 
 /* Botones */
-button {
-    margin: 20px;
-  }
   /* Boton Normal */
   .boton-normal {
     width: 154px;
@@ -68,7 +76,7 @@ button {
 .boton-rojo-normal {
     width: 154px;
     height: 50px;
-    line-height: 42px;
+    line-height: 50px;
     padding: 0;
     border: none;
     background: #FF2973;

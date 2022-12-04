@@ -262,6 +262,7 @@ button {
 }
 .header-box h3 {
   color: white;
+  font-style: italic;
 }
 
 .nav-menu {
