@@ -8,7 +8,38 @@ $azul: #0068B1;
 $celeste: #00B9FF; 
 $amarillo: #FFCB42;
 $blanco: #ffff;
+$accent:#FF2973;
 $Montserrat: "Montserrat", sans-serif;
+
+h1{
+  font-size: $h1;
+  font-weight: bold;
+}
+h2{
+  font-size: $h2;
+  font-weight: bold;
+}
+h3{
+  font-size: $h3;
+  font-weight: bold;
+}
+h4{
+  font-size: $h4;
+  font-weight: bold;
+}
+p{
+  font-size: $parrafo;
+  font-weight: normal;
+}
+.primary{
+  color: $azul;
+}
+.secondary{
+  color: $amarillo;
+}
+.accent{
+  color: $accent;
+}
 
 
 /* Botones */

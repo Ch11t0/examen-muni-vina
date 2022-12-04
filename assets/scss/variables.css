@@ -1,3 +1,40 @@
+h1 {
+  font-size: 39px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 31px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.primary {
+  color: #0068B1;
+}
+
+.secondary {
+  color: #FFCB42;
+}
+
+.accent {
+  color: #FF2973;
+}
+
 /* Botones */
 button {
   margin: 20px;
