@@ -227,7 +227,7 @@ a {
   transition: 800ms ease all;
 }
 
-/* Main */
+/* Main de Nuestra Ciudad */
 main {
   font-family: "Montserrat", sans-serif;
   margin-top: 75px;
@@ -263,7 +263,50 @@ main {
   color: #0068B1;
 }
 
-/* Fin del Main */
+.te-puede-interesar img:hover {
+  box-shadow: 5px 0px 5px 5px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+/* Fin del Main de Nuestra Ciudad */
+/* Main del Permiso de Circulación */
+.permiso-renovacion-main .notas-importantes {
+  background: url(./../img/Grupo-132.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+.formulario-completo h2 {
+  color: #0068B1;
+}
+
+.formulario-completo a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+.formulario-completo a:hover {
+  color: #00B9FF;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+
+.formulario-completo .formulario {
+  position: relative;
+}
+
+.formulario-completo .formulario .question-placa {
+  position: absolute;
+  top: 27%;
+  right: 2%;
+}
+
+.formulario-completo .formulario .question-rut {
+  position: absolute;
+  bottom: 8%;
+  right: 2%;
+}
+
 /* Footer */
 .site-footer {
   background: url(./../img/Grupo-130.png);
@@ -286,7 +329,7 @@ main {
 }
 
 .site-footer h6 {
-  color: #fff;
+  color: white;
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 45px;
@@ -315,6 +358,7 @@ main {
 
 .footer-links a {
   color: white;
+  transition: all 0.2s linear;
 }
 
 .footer-links a:active, .footer-links a:focus, .footer-links a:hover {
@@ -373,8 +417,6 @@ main {
 
 .social-icons li.title {
   margin-right: 15px;
-  text-transform: uppercase;
-  color: #96a2b2;
   font-weight: 700;
   font-size: 13px;
 }
