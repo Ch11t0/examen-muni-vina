@@ -49,6 +49,17 @@ a {
   color: #FF2973;
 }
 
+.italica {
+  font-style: italic;
+}
+
+.img-noticia {
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 300px;
+}
+
 /* Botones */
 /* Boton Normal */
 .boton-normal {

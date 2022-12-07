@@ -51,7 +51,14 @@ a{
 .accent{
   color: $accent;
 }
-
+.italica{
+  font-style: italic;
+}
+.img-noticia{
+  background-position: center;
+  object-fit: cover;
+  height: 300px;
+}
 
 /* Botones */
   /* Boton Normal */

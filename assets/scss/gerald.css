@@ -50,6 +50,15 @@ a {
   color: #FF2973;
 }
 
+.italica {
+  font-style: italic;
+}
+
+.img-noticia {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 /* Botones */
 /* Boton Normal */
 .boton-normal {
