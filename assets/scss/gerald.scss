@@ -16,26 +16,23 @@ main {
     background-position: center center;
     background-size: cover;
 }
-.nuestra-ciudad-main .bg-lugar-espectacular p {
-    color: $blanco;
-}
 .nuestra-ciudad-main .bg-lugar-espectacular  .h3-blanco {
     color: $blanco;
-    font-weight: 400;
+    font-weight: 600;
 }
-.casino-nuestra-ciudad {
-    top: 719px;
-    right: 20%;
-}
-
 .reseña-historica h2 {
     color: $azul;
 }
-.te-puede-interesar img:hover{
-  box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.4);
+.te-puede-interesar img{
   -webkit-transition:all .3s ease;
   -o-transition:all .3s ease;
   transition:all .3s ease;
+  &:hover {
+    box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.4);
+    -webkit-transition:all .3s ease;
+  -o-transition:all .3s ease;
+  transition:all .3s ease;
+  }
 }
 
 /* Fin del Main de Nuestra Ciudad */
@@ -83,6 +80,23 @@ main {
 .formulario-completo .solicitudes {
   margin-top: 100px;
 }
+/* Main del Reloj de Flores */
+
+.reloj-de-flores-main h1{
+  color: $azul;
+  font-weight: 600;
+}
+.reloj-de-flores-main h3{
+  color: $azul;
+  font-weight: 600;
+}
+.visitar-lugares {
+  background: url(./../img/Grupo-140.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+
 /* Footer */
 
 .site-footer

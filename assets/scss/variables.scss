@@ -143,21 +143,11 @@ a{
     border: none;
     background: #FF2973;
   background: linear-gradient(0deg, #FF2973 0%,#FF2973 100%);
-  }
-  @media (max-width: 565px) {
-    .boton-form {
-      width: 300px;
-      height: 80px;
-    }
-    .boton-rojo-form {
-      width: 300px;
-      height: 80px;
-    }
-  }
-  .boton-rojo-form:hover {
+  &:hover {
     color: #FF2973;
     background: transparent;
      box-shadow:none;
+  }
   }
   .boton-rojo-form:before,
   .boton-rojo-form:after{
