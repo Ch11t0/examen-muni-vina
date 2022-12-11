@@ -154,11 +154,11 @@ a {
 
 @media (max-width: 565px) {
   .boton-form {
-    width: 300px;
+    width: 100%;
     height: 80px;
   }
   .boton-rojo-form {
-    width: 300px;
+    width: 100%;
     height: 80px;
   }
 }

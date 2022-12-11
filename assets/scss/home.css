@@ -154,11 +154,11 @@ a {
 
 @media (max-width: 565px) {
   .boton-form {
-    width: 300px;
+    width: 100%;
     height: 80px;
   }
   .boton-rojo-form {
-    width: 300px;
+    width: 100%;
     height: 80px;
   }
 }
@@ -398,6 +398,7 @@ a {
   height: 100px;
   text-transform: capitalize;
   border: 2px solid #0068B1;
+  transition: all 0.2s linear;
 }
 .home-pagos a:hover {
   background-color: #FF2973;
