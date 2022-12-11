@@ -28,6 +28,19 @@
         background: linear-gradient(to right, $azul, $blanco);
         opacity: 0.4;
     }
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 20px 10px;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    li:hover{
+        border-bottom: 2px solid $amarillo;
+    }
+    .active{
+        color: $amarillo;
+    }
     
 }
 

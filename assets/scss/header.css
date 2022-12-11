@@ -54,8 +54,16 @@ a {
 }
 
 .img-noticia {
+  background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.bg-azul {
+  background-color: #0068B1;
+  color: white;
 }
 
 /* Botones */
@@ -271,6 +279,19 @@ a {
   bottom: 0;
   background: linear-gradient(to right, #0068B1, white);
   opacity: 0.4;
+}
+.header-menu a {
+  text-decoration: none;
+  color: white;
+  padding: 20px 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.header-menu li:hover {
+  border-bottom: 2px solid #FFCB42;
+}
+.header-menu .active {
+  color: #FFCB42;
 }
 
 .header-box {

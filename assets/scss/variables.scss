@@ -58,6 +58,11 @@ a{
   background-position: center;
   object-fit: cover;
   height: 300px;
+  width: 100%;
+}
+.bg-azul{
+  background-color: $azul;
+  color: white;
 }
 
 /* Botones */

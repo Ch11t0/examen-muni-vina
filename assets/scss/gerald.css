@@ -55,8 +55,16 @@ a {
 }
 
 .img-noticia {
+  background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.bg-azul {
+  background-color: #0068B1;
+  color: white;
 }
 
 /* Botones */

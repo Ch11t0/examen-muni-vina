@@ -1,12 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Turismo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <link rel="stylesheet" href="assets/scss/turismo.css">
+    <script src="https://kit.fontawesome.com/c596be5b04.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+    <main>
+        <section class="container">
+            <div class="row">
+                <h3 class="fw-bold text-uppercase primary">Como llegar</h3>
+                <div class="row d-flex align-content-center">
+                    <div class="col-md-4">
+                        <p>Desde Santiago por la Ruta 68, son 115 kms. a Valparaíso, 120 kms. a Viña del Mar y 134 kms. a
+                            Concón. Hacia el interior por el Camino Troncal o ferrocarril se encuentran las comunas de
+                            Quilpué y Villa Alemana a 24 y 27 kms de Valparaíso. Para acceder a la comuna desde el litoral
+                            norte, se debe tomar en Valparaíso la Avenida España, y la subida Alessandri hasta Concón. Desde
+                            este punto, se accede a la Carretera F30 E, que conduce por todo el trayecto del Litoral Norte.
+                            Otra alternativa es tomar Avda. España, Avda.Libertad, subida Alssandri, hasta Reñaca Alto,
+                            doblar a la derecha para empalmar a Ruta 60 hasta Nogales y ahí tomar Ruta 5 Norte o
+                            Panamericana Norte.</p>
+                        <a href="#" class="text-capitalize boton-normal boton-rojo-normal">Google Maps</a>
+                    </div>
+                    <div class="col-md-8 d-flex justify-content-end">
+                        <img src="assets/img/mapa.PNG" alt="Mapa de la ciudad de Viña del Mar" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container position-relative">
+            <h3 class="fw-bold text-uppercase primary">Lugares emblematicos</h3>
+            <div class="row pb-3">
+                <div class="col-8">
+                    <img src="assets/img/turismo1.jpg" alt="Imagen de un lugar turistico de viña del mar"
+                        class="img-fluid img-noticia">
+                </div>
+                <div class="col-4">
+                    <img src="assets/img/turismo2.jpg" alt="Imagen de un lugar turistico de viña del mar"
+                        class="img-fluid img-noticia">
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-3">
+                    <img src="assets/img/turismo3.jpg" alt="Imagen de un lugar turistico de Viña del Mar"
+                        class="img-fluid img-noticia">
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/turismo4.jpg" alt="Imagen de un lugar turistico de Viña del Mar"
+                        class="img-fluid img-noticia">
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/turismo5.jpg" alt="Imagen de un lugar turistico de Viña del Mar"
+                        class="img-fluid img-noticia">
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/turismo6.jpg" alt="Imagen de un lugar turistico de Viña del Mar"
+                        class="img-fluid img-noticia">
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-4">
+                    <img src="assets/img/turismo7.png" alt="Imagen de un lugar turistico de viña del mar"
+                        class="img-fluid img-noticia">
+                </div>
+                <div class="col-8">
+                    <img src="assets/img/turismo8.jpg" alt="Imagen de un lugar turistico de viña del mar"
+                        class="img-fluid img-noticia">
+                </div>
+            </div>
+            <button href="#" class="boton-normal boton-rojo-normal position-absolute bottom-0 start-50 translate-middle">Leer más</button>
     
+        </section>
+       <section class="portal-turistico bg-azul">
+            <div class=" row container mx-auto overflow-visible">
+                <div class="col">
+                    <img src="assets/img/portal-turistico.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col portal-text d-flex flex-column justify-content-center">
+                    <h3 class="text-capitalize pb-3">portal turístico</h3>
+                    <p>Visita nuestro sitio web en el cual podrás revisar las actividades agendadas para todo el mes y tours para que conozcas nuestra hermosa ciudad.
+                        Además también puedes descargar información practica para turistas extranjeros.
+                        </p>
+                    <a href="#" class="text-capitalize boton-rojo-normal boton-normal">Visitar portal</a>
+                    <span class="pt-3 d-block"><i class="fa-solid fa-download"></i> Descargar información</span>
+                </div>
+            </div>
+       </section>
+       <section class="">
+        <div class="container py-3">
+            <h3 class="text-uppercase primary">mapa interactivo</h3>
+        </div>
+        <img src="assets/img/mapa-interactivo.PNG" alt="Mapa interactivo de Viña del Mar" class="img-fluid">
+
+       </section>
+    </main>
+
+    <!--------------------------------------------------------------footer---------------------------------------------------------->
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-xl-3">
+              <h6>Sobre Nosotros</h6>
+              <ul class="footer-links">
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Plan Regular Comunal</a></li>
+                <li><a href="">Privacidad y Seguridad Web</a></li>
+                <li><a href="">Contáctenos</a></li>
+              </ul>
+              <h6 class="pt-5">Nuestras Redes Sociales</h6>
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a class="youtube" href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a class="envelope" href="#"><i class="fa fa-envelope"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-xl-3 col-md-3">
+                <h6>Red de Sitios</h6>
+                <ul class="footer-links">
+                  <li><a href="#">Sitios de interés</a></li>
+                  <li><a href="#">Programas Recomendados</a></li>
+                  <li><a href="#">Datos Estadísticos Comuna</a></li>
+                </ul>
+              </div>
+            <div class="col-xl-3 col-md-3">
+              <h6>Utilidades</h6>
+              <ul class="footer-links">
+                <li><a href="#">Sitios de interés</a></li>
+                <li><a href="#">Programas Recomendados</a></li>
+                <li><a href="#">Datos Estadísticos Comuna</a></li>
+              </ul>
+            </div>
+            <div class="col-xl-3 col-md-3">
+                <h6>Servicios en línea</h6>
+                <ul class="footer-links">
+                  <li><a href="#">Dirección de obras</a></li>
+                  <li><a href="#">Convenios Municipales</a></li>
+                  <li><a href="#">Derechos de Publicidad</a></li>
+                  <li><a href="#">Patentes Municipales</a></li>
+                  <li><a href="#">Juzgados de Policía Local</a></li>
+                  <li><a href="#">Permisos de Circulación</a></li>
+                  <li><a href="#">Aseo Domiciliario</a></li>
+                  <li><a href="#">Reserva de Horas, Licencia de Conducir</a></li>
+                  <li><a href="#">Permisos Precarios</a></li>
+                </ul>
+              </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container position-relative py-5">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12 py-5">
+              <img class="logo-blanco position-absolute" src="assets/img/logo-footer-2022-v2.png" alt="logo-viña-blanco">
+            </div>
+          </div>
+        </div>
+  </footer>
+  <!--Final del footer -->
+  <script src="https://kit.fontawesome.com/65729a265a.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

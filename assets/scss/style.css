@@ -60,6 +60,12 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
   height: 300px;
+  width: 100%;
+}
+
+.bg-azul {
+  background-color: #0068B1;
+  color: white;
 }
 
 /* Botones */
@@ -309,6 +315,12 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
   height: 300px;
+  width: 100%;
+}
+
+.bg-azul {
+  background-color: #0068B1;
+  color: white;
 }
 
 /* Botones */
@@ -625,6 +637,12 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
   height: 300px;
+  width: 100%;
+}
+
+.bg-azul {
+  background-color: #0068B1;
+  color: white;
 }
 
 /* Botones */
@@ -1026,6 +1044,12 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
   height: 300px;
+  width: 100%;
+}
+
+.bg-azul {
+  background-color: #0068B1;
+  color: white;
 }
 
 /* Botones */
@@ -1466,4 +1490,12 @@ main {
     font-weight: 600;
   }
 }
-/* Fin del Footer *//*# sourceMappingURL=style.css.map */
+/* Fin del Footer */
+.portal-turistico {
+  height: 500px;
+}
+.portal-turistico img {
+  height: 560px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

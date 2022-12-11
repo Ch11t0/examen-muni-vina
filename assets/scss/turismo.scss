@@ -1,0 +1,13 @@
+.portal-turistico{
+    height: 500px;
+    margin-top: 75px;
+    img{
+        height: 560px;
+        object-fit: cover;
+        transform: translateY(-100px);
+    }
+    .portal-text{
+        height: 500px;
+        transform: translateY(-80px);
+    }
+}
