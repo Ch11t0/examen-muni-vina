@@ -151,17 +151,6 @@ a {
   background: #FF2973;
   background: linear-gradient(0deg, #FF2973 0%, #FF2973 100%);
 }
-
-@media (max-width: 565px) {
-  .boton-form {
-    width: 100%;
-    height: 80px;
-  }
-  .boton-rojo-form {
-    width: 100%;
-    height: 80px;
-  }
-}
 .boton-rojo-form:hover {
   color: #FF2973;
   background: transparent;

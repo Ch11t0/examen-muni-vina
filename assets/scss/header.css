@@ -151,17 +151,6 @@ a {
   background: #FF2973;
   background: linear-gradient(0deg, #FF2973 0%, #FF2973 100%);
 }
-
-@media (max-width: 565px) {
-  .boton-form {
-    width: 100%;
-    height: 80px;
-  }
-  .boton-rojo-form {
-    width: 100%;
-    height: 80px;
-  }
-}
 .boton-rojo-form:hover {
   color: #FF2973;
   background: transparent;
@@ -263,12 +252,12 @@ a {
   height: 500px;
   position: relative;
 }
-.header-menu .container .header-nav {
-  position: relative;
-  display: flex;
-  flex-flow: wrap row;
-  justify-content: space-between;
-  align-items: center;
+.header-menu .container .header-box {
+  position: absolute;
+  bottom: 0;
+}
+.header-menu .container .header-box span {
+  font-size: 3.5rem;
 }
 .header-menu::before {
   content: " ";
@@ -277,58 +266,33 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to right, #0068B1, white);
+  background: linear-gradient(to right, #0068B1, #00B9FF);
   opacity: 0.4;
 }
-.header-menu a {
-  text-decoration: none;
-  color: white;
-  padding: 20px 10px;
-  text-transform: capitalize;
-  font-weight: bold;
+.header-menu li:hover .nav-link {
+  color: #FFCB42 !important;
 }
-.header-menu li:hover {
-  border-bottom: 2px solid #FFCB42;
+.header-menu a:hover {
+  color: #FFCB42;
 }
 .header-menu .active {
-  color: #FFCB42;
+  color: #FFCB42 !important;
+}
+.header-menu .turismo {
+  background-color: #FF2973;
 }
 
-.header-box {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  text-transform: capitalize;
-  font-weight: bold;
-}
-.header-box h2 {
-  color: #FFCB42;
-}
-.header-box span {
-  display: block;
-  font-size: 70px;
-  color: white;
-}
-.header-box h3 {
-  color: white;
-  font-style: italic;
-}
-
-.nav-menu {
-  list-style: none;
-  display: flex;
-  flex-flow: wrap row;
-}
-.nav-menu a {
-  text-decoration: none;
-  color: white;
-  padding: 20px 10px;
-  text-transform: capitalize;
-  font-weight: bold;
-}
-.nav-menu li:hover {
-  border-bottom: 2px solid #FFCB42;
-}
-.nav-menu .active {
-  color: #FFCB42;
+@media screen and (max-width: 768px) {
+  .header-menu nav {
+    background-color: #212529;
+    color: white;
+  }
+  .dropdown-menu {
+    border: none;
+    background-color: #212529;
+  }
+  .dropdown-menu .dropdown-item {
+    color: white;
+    text-align: center;
+  }
 }/*# sourceMappingURL=header.css.map */
