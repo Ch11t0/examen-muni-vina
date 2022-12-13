@@ -244,7 +244,8 @@ a {
 
 .header-menu {
   background-image: url("../img/banner-hs.jpg");
-  height: 600px;
+  background-attachment: fixed;
+  height: 700px;
   background-size: cover;
   position: relative;
 }

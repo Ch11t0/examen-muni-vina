@@ -242,6 +242,9 @@ a {
   transition: 800ms ease all;
 }
 
+.noticias {
+  padding-top: none;
+}
 .noticias .noticias-secundarias .row {
   padding: 0 !important;
 }
