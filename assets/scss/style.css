@@ -1218,6 +1218,10 @@ main {
   transition: all 0.3s ease;
 }
 
+.te-puede-interesar a p {
+  text-decoration: none;
+}
+
 /* Fin del Main de Nuestra Ciudad */
 /* Main del Permiso de Circulación */
 .permiso-renovacion-main .notas-importantes {
