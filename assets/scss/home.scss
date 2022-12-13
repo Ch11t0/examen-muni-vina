@@ -1,71 +1,23 @@
 @import "variables.scss";
-
-.noticias {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h2 {
-        color: $azul;
-        text-transform: capitalize;
-    }
-    a{
-        margin-top: 50px;
-    }
-
-    .noticia-principal-text {
-        position: relative;
-        img{
-            position: absolute;
-            bottom: 2rem;
-            left: 10px;
-            border-radius: 50%;
-        }
-
-        .subtitulo {
-            font-style: italic;
-        }
-
-        p {
-            font-size: 1.25rem;
-        }
-
-        .autor-noticia {
-            font-weight: bold;
-            position: absolute;
-            bottom: 10px;
-            left: 10px;
-        }
-        .tiempo-noticia{
-            position: absolute;
-            bottom: 10px;
-            right: 10px;
+.noticias{
+    .noticias-secundarias{
+        .row{
+            padding: 0 !important;
         }
     }
-    .noticia-secundaria{
-        padding-top: 20px;
-        img{
-            width: 324px;
-            height: 324px;
-            object-fit: cover;
-        }
-        .texto{
-            position: relative;
-            height: 100px;
-            span{
-                display: inline-block;
-                position: absolute;
-                bottom: 10px;
-                right: -200px;
-            }
-        }
-       
+    .imagen-noticia-secundaria{
+        object-fit: cover;
+        width: 100%;
     }
+    .texto-noticia-secundaria{
+        height: 100px;
 
-
+    }
+    .noticia-principal{
+        min-height: 350px;
+    }
 }
-
 .muni-transparente{
-    height: 400px;
     background-image: url("../img/transparente.jpg");
     background-size: cover;
     position: relative;
@@ -80,6 +32,9 @@
             display: block;
             text-align: left;
             color: $blanco;
+            &:hover{
+                color: $amarillo;
+            }
         }
 
     }
@@ -148,6 +103,8 @@
         justify-content: center;
         color: $azul;
         height: 100px;
+        max-width: 200px;
+        min-width: 200px;
         text-transform: capitalize;
         border: 2px solid $azul;
         -webkit-transition:all .2s linear;

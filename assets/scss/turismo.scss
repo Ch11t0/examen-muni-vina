@@ -11,3 +11,23 @@
         transform: translateY(-80px);
     }
 }
+.lugar-emblema{
+    a:hover span{
+        background-color: $accent;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portal-turistico{
+        height: auto;
+        img{
+            transform: none;
+            height: auto;
+        }
+        .portal-text{
+            padding-top: 20px;
+            height: auto;
+            transform: none;
+        }
+    }
+}

@@ -786,66 +786,22 @@ a {
   transition: 800ms ease all;
 }
 
-.noticias {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.noticias .noticias-secundarias .row {
+  padding: 0 !important;
 }
-.noticias h2 {
-  color: #0068B1;
-  text-transform: capitalize;
-}
-.noticias a {
-  margin-top: 50px;
-}
-.noticias .noticia-principal-text {
-  position: relative;
-}
-.noticias .noticia-principal-text img {
-  position: absolute;
-  bottom: 2rem;
-  left: 10px;
-  border-radius: 50%;
-}
-.noticias .noticia-principal-text .subtitulo {
-  font-style: italic;
-}
-.noticias .noticia-principal-text p {
-  font-size: 1.25rem;
-}
-.noticias .noticia-principal-text .autor-noticia {
-  font-weight: bold;
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-.noticias .noticia-principal-text .tiempo-noticia {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-}
-.noticias .noticia-secundaria {
-  padding-top: 20px;
-}
-.noticias .noticia-secundaria img {
-  width: 324px;
-  height: 324px;
+.noticias .imagen-noticia-secundaria {
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
 }
-.noticias .noticia-secundaria .texto {
-  position: relative;
+.noticias .texto-noticia-secundaria {
   height: 100px;
 }
-.noticias .noticia-secundaria .texto span {
-  display: inline-block;
-  position: absolute;
-  bottom: 10px;
-  right: -200px;
+.noticias .noticia-principal {
+  min-height: 350px;
 }
 
 .muni-transparente {
-  height: 400px;
   background-image: url("../img/transparente.jpg");
   background-size: cover;
   position: relative;
@@ -862,6 +818,9 @@ a {
   display: block;
   text-align: left;
   color: white;
+}
+.muni-transparente .muni-texto a:hover {
+  color: #FFCB42;
 }
 .muni-transparente::before {
   content: "";
@@ -929,6 +888,8 @@ a {
   justify-content: center;
   color: #0068B1;
   height: 100px;
+  max-width: 200px;
+  min-width: 200px;
   text-transform: capitalize;
   border: 2px solid #0068B1;
   transition: all 0.2s linear;
@@ -1218,10 +1179,6 @@ main {
   transition: all 0.3s ease;
 }
 
-.te-puede-interesar a p {
-  text-decoration: none;
-}
-
 /* Fin del Main de Nuestra Ciudad */
 /* Main del Permiso de Circulación */
 .permiso-renovacion-main .notas-importantes {
@@ -1464,4 +1421,23 @@ main {
 .portal-turistico .portal-text {
   height: 500px;
   transform: translateY(-80px);
+}
+
+.lugar-emblema a:hover span {
+  background-color: #FF2973;
+}
+
+@media screen and (max-width: 768px) {
+  .portal-turistico {
+    height: auto;
+  }
+  .portal-turistico img {
+    transform: none;
+    height: auto;
+  }
+  .portal-turistico .portal-text {
+    padding-top: 20px;
+    height: auto;
+    transform: none;
+  }
 }/*# sourceMappingURL=style.css.map */
