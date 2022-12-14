@@ -185,6 +185,14 @@ a {
   transition: 800ms ease all;
 }
 
+@media (max-width: 565px) {
+  .boton-form {
+    height: 80px;
+  }
+  .boton-rojo-form {
+    height: 80px;
+  }
+}
 /* Boton Pagos (index) */
 .boton-pagos {
   width: 230px;
@@ -429,6 +437,14 @@ a {
   transition: 800ms ease all;
 }
 
+@media (max-width: 565px) {
+  .boton-form {
+    height: 80px;
+  }
+  .boton-rojo-form {
+    height: 80px;
+  }
+}
 /* Boton Pagos (index) */
 .boton-pagos {
   width: 230px;
@@ -495,7 +511,6 @@ a {
   height: 700px;
   background-size: cover;
   position: relative;
-  overflow-x: hidden;
 }
 .header-menu .box-container {
   height: 500px;
@@ -730,6 +745,14 @@ a {
   transition: 800ms ease all;
 }
 
+@media (max-width: 565px) {
+  .boton-form {
+    height: 80px;
+  }
+  .boton-rojo-form {
+    height: 80px;
+  }
+}
 /* Boton Pagos (index) */
 .boton-pagos {
   width: 230px;
@@ -1091,6 +1114,14 @@ a {
   transition: 800ms ease all;
 }
 
+@media (max-width: 565px) {
+  .boton-form {
+    height: 80px;
+  }
+  .boton-rojo-form {
+    height: 80px;
+  }
+}
 /* Boton Pagos (index) */
 .boton-pagos {
   width: 230px;
@@ -1431,6 +1462,18 @@ main {
 
 .lugar-emblema a:hover span {
   background-color: #FF2973;
+}
+.lugar-emblema figure {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.lugar-emblema img {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
+.lugar-emblema img:hover {
+  transform: scale(1);
 }
 
 @media screen and (max-width: 768px) {
