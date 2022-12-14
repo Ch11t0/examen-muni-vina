@@ -253,6 +253,12 @@ a {
 .noticias {
   padding-top: none;
 }
+.noticias a:hover h3 {
+  color: #FF2973;
+}
+.noticias a:hover h4 {
+  color: #FF2973;
+}
 .noticias .noticias-secundarias .row {
   padding: 0 !important;
 }

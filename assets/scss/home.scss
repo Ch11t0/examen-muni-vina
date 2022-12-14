@@ -1,5 +1,14 @@
 @import "variables.scss";
 .noticias{
+    a{
+        &:hover h3 {
+            color: $accent;
+        }
+        &:hover h4 {
+            color: $accent;
+        }
+
+    }
     padding-top: none;
     .noticias-secundarias{
         .row{
