@@ -250,15 +250,15 @@ a {
   background-size: cover;
   position: relative;
 }
-.header-menu .container {
+.header-menu .box-container {
   height: 500px;
   position: relative;
 }
-.header-menu .container .header-box {
+.header-menu .box-container .header-box {
   position: absolute;
   bottom: 0;
 }
-.header-menu .container .header-box span {
+.header-menu .box-container .header-box span {
   font-size: 3.5rem;
 }
 .header-menu::before {
