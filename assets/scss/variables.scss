@@ -181,7 +181,14 @@ a{
     width:100%;
     transition:800ms ease all;
   }
-
+  @media (max-width: 565px) {
+    .boton-form {
+      height: 80px;
+    }
+    .boton-rojo-form {
+      height: 80px;
+    }
+  }
 
   /* Boton Pagos (index) */
 
