@@ -129,7 +129,7 @@ a {
 
 /* Boton Formulario */
 .boton-form {
-  width: 450px;
+  width: 300px;
   height: 50px;
   color: white;
   padding: 10px 25px;
@@ -145,7 +145,7 @@ a {
 }
 
 .boton-rojo-form {
-  width: 450px;
+  width: 300px;
   height: 50px;
   line-height: 42px;
   padding: 0;
@@ -187,10 +187,10 @@ a {
 
 @media (max-width: 565px) {
   .boton-form {
-    height: 80px;
+    width: 324px;
   }
   .boton-rojo-form {
-    height: 80px;
+    width: 324px;
   }
 }
 /* Boton Pagos (index) */
@@ -381,7 +381,7 @@ a {
 
 /* Boton Formulario */
 .boton-form {
-  width: 450px;
+  width: 300px;
   height: 50px;
   color: white;
   padding: 10px 25px;
@@ -397,7 +397,7 @@ a {
 }
 
 .boton-rojo-form {
-  width: 450px;
+  width: 300px;
   height: 50px;
   line-height: 42px;
   padding: 0;
@@ -439,10 +439,10 @@ a {
 
 @media (max-width: 565px) {
   .boton-form {
-    height: 80px;
+    width: 324px;
   }
   .boton-rojo-form {
-    height: 80px;
+    width: 324px;
   }
 }
 /* Boton Pagos (index) */
@@ -689,7 +689,7 @@ a {
 
 /* Boton Formulario */
 .boton-form {
-  width: 450px;
+  width: 300px;
   height: 50px;
   color: white;
   padding: 10px 25px;
@@ -705,7 +705,7 @@ a {
 }
 
 .boton-rojo-form {
-  width: 450px;
+  width: 300px;
   height: 50px;
   line-height: 42px;
   padding: 0;
@@ -747,10 +747,10 @@ a {
 
 @media (max-width: 565px) {
   .boton-form {
-    height: 80px;
+    width: 324px;
   }
   .boton-rojo-form {
-    height: 80px;
+    width: 324px;
   }
 }
 /* Boton Pagos (index) */
@@ -1064,7 +1064,7 @@ a {
 
 /* Boton Formulario */
 .boton-form {
-  width: 450px;
+  width: 300px;
   height: 50px;
   color: white;
   padding: 10px 25px;
@@ -1080,7 +1080,7 @@ a {
 }
 
 .boton-rojo-form {
-  width: 450px;
+  width: 300px;
   height: 50px;
   line-height: 42px;
   padding: 0;
@@ -1122,10 +1122,10 @@ a {
 
 @media (max-width: 565px) {
   .boton-form {
-    height: 80px;
+    width: 324px;
   }
   .boton-rojo-form {
-    height: 80px;
+    width: 324px;
   }
 }
 /* Boton Pagos (index) */
