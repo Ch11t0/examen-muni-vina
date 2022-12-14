@@ -252,6 +252,41 @@ a {
   transition: 800ms ease all;
 }
 
+.login {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/banner.jpg");
+  position: relative;
+}
+.login::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, #0068B1, #00B9FF);
+  opacity: 0.4;
+}
+
+.login-box {
+  min-width: 400px;
+  position: relative;
+  background-color: white;
+}
+.login-box .login-icon {
+  height: 30px;
+}
+.login-box .login-icon .fa-google {
+  color: #AE3224;
+}
+.login-box .login-icon .fa-twitter {
+  color: #0068B1;
+}
+
 body {
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
